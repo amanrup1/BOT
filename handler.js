@@ -1457,7 +1457,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: ' +62 822-7991-5237'
+                                    phoneNumber: ' +62 813-9148-6982'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1496,7 +1496,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: ' +62 822-7991-5237'
+                                    phoneNumber: ' +62 813-9148-6982'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1690,7 +1690,7 @@ break
             let media = await quoted.download()
             let { toAudio } = require('./lib/converter')
             let audio = await toAudio(media, 'mp4')
-            kagura.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By Lexxy Official.mp3`}, { quoted : m })
+            kagura.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By introvert Official.mp3`}, { quoted : m })
             }
             break
             case 'tovn': case 'toptt': {
@@ -3067,7 +3067,7 @@ Saya *${botname}*, Bot Ini Adalah Beta Multi-Device WhatsApp.
 Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
 ──────────────
   _> *INFO BOT*_
-👑 Creator : *Lexxy Official*
+👑 Creator : *introvert*
 👤 Owner : *${ownername}*
 🤖 Bot Name : *${botname}*
 📑 Tanggal : *${tanggal}*
@@ -3369,13 +3369,13 @@ Jika Ada Fitur Error Atau Bug Segera Lapor Ke Owner Bot
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        kagura.send5ButImg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.thumb, btn)
+                        kagura.send5ButImg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 introvert projecct`, global.thumb, btn)
                         } else if (setbot.templateGif) {
-                        kagura.send5ButGif(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.visoka, btn)
+                        kagura.send5ButGif(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 introvert projecct`, global.visoka, btn)
                         } else if (setbot.templateVid) {
-                        kagura.send5ButVid(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, global.visoka, btn)
+                        kagura.send5ButVid(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 introvert projecct𝘭`, global.visoka, btn)
                         } else if (setbot.templateMsg) {
-                        kagura.send5ButMsg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘓𝘦𝘹𝘹𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭`, btn)
+                        kagura.send5ButMsg(m.chat, anu, `© 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 introvert projecct`, btn)
                         }
                      }
             break
